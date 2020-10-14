@@ -23,9 +23,9 @@ frame_2_video:result files are frames, transform them to a visible video.
 
 move_files:refer to the src file, move files to some directory.
 
-print:
+print:transform .txt directory file from "test/Apply_Eyebrow/000,128" to "test/Apply_Eyebrow_0"
 
-print_content:
+print_content:transform .txt directory file from "test/Apply_Eyebrow/0,128" to "test/Apply_Eyebrow_0"
 
 pth_2_txt:read .pth files, print some content to .txt file.
 

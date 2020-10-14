@@ -8,6 +8,9 @@ The network adopts https://pytorch.org/tutorials/beginner/blitz/neural_networks_
 
 
 # tools
-some .sh and .py files that are used to transform dataset.\n
-add_0.sh:change pictures' names from "0.jpg" to "000.jpg"("34.jpg" to "034.jpg").\n
-count_no_anno:count how many videos franmes without annos are over 50%.\n
+some .sh and .py files that are used to transform dataset.
+
+add_0.sh:change pictures' names from "0.jpg" to "000.jpg"("34.jpg" to "034.jpg").
+
+count_no_anno:count how many videos franmes without annos are over 50%.
+

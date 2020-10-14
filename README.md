@@ -12,5 +12,23 @@ some .sh and .py files that are used to transform dataset.
 
 add_0.sh:change pictures' names from "0.jpg" to "000.jpg"("34.jpg" to "034.jpg").
 
-count_no_anno:count how many videos franmes without annos are over 50%.
+count_no_anno:random sample 1000 videos in dataset. Count how many videos franmes without annos are over 50%.
 
+
+divide_data:random sample part of dataset, print their filename in new .txt file.
+
+divide_frame:original annos are for all videos, this file read origin files and write new file of each video, each frame on a row.
+
+frame_2_video:result files are frames, transform them to a visible video.
+
+move_files:refer to the src file, move files to some directory.
+
+print:
+
+print_content:
+
+pth_2_txt:read .pth files, print some content to .txt file.
+
+remove_bad_videos:move all videos whose frames without annos over 50%(bad videos) to other directory.
+
+video_2_frames:divide a video to frames.
